@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://gfpoken.bigw.org/%{name}-%{version}.tar.gz
+# Source0-md5:	59365bf8fd96ae3e231c57da7aa26c03
 Source1:	%{name}.png
 Source2:	%{name}.desktop
 URL:		http://gfpoken.bigw.org/
