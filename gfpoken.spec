@@ -2,7 +2,7 @@ Summary:	BlackBox-type game for GTK inspired by Marble
 Summary(pl):	Zainspirowana przez Marble gra dla GTK
 Name:		gfpoken
 Version:	0.25
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://gfpoken.bigw.org/%{name}-%{version}.tar.gz
@@ -35,13 +35,13 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_pixmapsdir},%{_applnkdir}/Games}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_pixmapsdir},%{_desktopdir}}
 
 install gfpoken $RPM_BUILD_ROOT%{_bindir}
 install iconpix.h $RPM_BUILD_ROOT%{_pixmapsdir}/gfpoken.xpm
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
-install %{SOURCE2} $RPM_BUILD_ROOT%{_applnkdir}/Games
+install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -51,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_pixmapsdir}/*
-%{_applnkdir}/Games/*
+%{_desktopdir}/*
