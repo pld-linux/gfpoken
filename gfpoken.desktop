@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=gfpoken
 Comment=Relaxen und watchen das rollenballen
-Comment[pl]=Relaksen und ogl±dajen kulken
+Comment[pl]=Relaksen und oglÄ…dajen kulken
 Icon=gfpoken.png
 Exec=gfpoken
 Terminal=0
 Type=Application
+# vi: encoding=utf-8
