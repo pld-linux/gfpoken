@@ -6,7 +6,10 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Group(de):	X11/Applikationen/Spiele
+Group(es):	X11/Aplicaciones/Juegos
+Group(fr):	X11/Applications/Jeux
 Group(pl):	X11/Aplikacje/Gry
+Group(pt):	X11/Aplicações/Jogos
 Source0:	http://gfpoken.bigw.org/%{name}-%{version}.tar.gz
 URL:		http://gfpoken.bigw.org/
 BuildRequires:	autoconf
@@ -29,7 +32,7 @@ Zainspirowana przez Marble gra dla GTK.
 rm -f missing
 aclocal
 autoconf
-automake -a
+automake -a -c
 %configure
 %{__make}
 
