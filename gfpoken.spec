@@ -43,14 +43,12 @@ install iconpix.h $RPM_BUILD_ROOT%{_pixmapsdir}/gfpoken.xpm
 install %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_applnkdir}/Games
 
-gzip -9nf AUTHORS ChangeLog README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_pixmapsdir}/*
 %{_applnkdir}/Games/*
