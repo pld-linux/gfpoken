@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gfpoken
+Comment=Relaxen und watchen das rollenballen
+Comment[pl]=Relaksen und ogl±dajen kulken
+Icon=gfpoken.png
+Exec=gfpoken
+Terminal=0
+Type=Application
