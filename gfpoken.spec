@@ -14,7 +14,6 @@ BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 BlackBox-type game for GTK inspired by Marble.
