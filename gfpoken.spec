@@ -1,5 +1,5 @@
 Summary:	BlackBox-type game for GTK+ inspired by Marble
-Summary(pl.UTF-8):   Zainspirowana przez Marble gra dla GTK+
+Summary(pl.UTF-8):	Zainspirowana przez Marble gra dla GTK+
 Name:		gfpoken
 Version:	0.25
 Release:	5
