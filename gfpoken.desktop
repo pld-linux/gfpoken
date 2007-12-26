@@ -2,10 +2,9 @@
 Name=gfpoken
 Comment=Relaxen und watchen das rollenballen
 Comment[pl]=Relaksen und oglądajen kulken
-Icon=gfpoken.png
+Icon=gfpoken
 Exec=gfpoken
 Terminal=false
 Type=Application
-Encoding=UTF-8
 Categories=GTK;Game;BoardGame;
 # vi: encoding=utf-8
